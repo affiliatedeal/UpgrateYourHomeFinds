@@ -686,7 +686,7 @@ const PRODUCTS = {
 // 3. NAVIGATION
 // ════════════════════════════════════════════════════════════
 
-function showPage(id) {
+function showPage(id, skipScroll) {
   document.querySelectorAll('.page').forEach(function(p) {
     p.classList.remove('active');
   });
@@ -705,7 +705,15 @@ function showPage(id) {
   var navEl = document.getElementById('nav-' + id);
   if (navEl) navEl.classList.add('active');
 
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  // URL-Hash aktualisieren (ohne erneutes Scrollen durch hashchange)
+  var newHash = id === 'home' ? '#' : '#' + id;
+  if (window.location.hash !== newHash && !(id === 'home' && window.location.hash === '')) {
+    history.pushState(null, '', newHash);
+  }
+
+  if (!skipScroll) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
 
 function toggleMenu() {
@@ -898,7 +906,23 @@ function resolveDataLinks() {
 // 5. INIT – nach DOM-Aufbau starten
 // ════════════════════════════════════════════════════════════
 
+function getPageFromHash() {
+  var hash = window.location.hash.replace('#', '').trim();
+  return hash || 'home';
+}
+
+// Browser Vor/Zurück-Navigation
+window.addEventListener('popstate', function() {
+  showPage(getPageFromHash(), true);
+});
+
 document.addEventListener('DOMContentLoaded', function() {
   renderProducts();
   resolveDataLinks();
+
+  // Beim Laden: Hash auswerten und richtige Seite anzeigen
+  var startPage = getPageFromHash();
+  if (startPage !== 'home') {
+    showPage(startPage, true);
+  }
 });
