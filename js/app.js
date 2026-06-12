@@ -411,7 +411,7 @@ const PRODUCTS = {
       title:       "Gewürzregal",
       description: "Drehbarer 3-stufiger Organizer zur platzsparenden Aufbewahrung von Gewürzen, Küchenutensilien oder Kosmetikartikeln auf Arbeitsflächen und Tischen.",
       price:       "ab 44,99 €",
-      image:       "images/products/kueche/gewuerzStaender.jpg",
+      image:       "images/products/kueche/gewuerzstaender.jpg",
       linkKey:     "AFFILIATE_KUECHE.GEWUERTZSTAENDER",
     },
  
@@ -443,7 +443,7 @@ const PRODUCTS = {
       title:       "4-in-1 Milchaufschäumer",
       description: "Elektrischer Milchaufschäumer mit Heiz- und Kaltfunktion für cremigen Milchschaum, heiße Milch oder Kakao, ideal für Cappuccino und Latte.",
       price:       "ab 39,99 €",
-      image:       "images/products/kueche/milchAufschaeumer.jpg",
+      image:       "images/products/kueche/milchaufschaeumer.jpg",
       linkKey:     "AFFILIATE_KUECHE.MILCHAUFSCHAUMER",
     },
  
@@ -451,7 +451,7 @@ const PRODUCTS = {
       title:       "2-stöckige Etagere aus Metall",
       description: "Stilvoller Servierständer für Kuchen, Cupcakes und Snacks, ideal als dekorative Tischpräsentation für besondere Anlässe und den Alltag.",
       price:       "ab 37,89 €",
-      image:       "images/products/kueche/servierPlatte.jpg",
+      image:       "images/products/kueche/servierplatte.jpg",
       linkKey:     "AFFILIATE_KUECHE.SERVICEPLATTE",
     },
  
