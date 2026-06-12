@@ -411,7 +411,7 @@ const PRODUCTS = {
       title:       "Gewürzregal",
       description: "Drehbarer 3-stufiger Organizer zur platzsparenden Aufbewahrung von Gewürzen, Küchenutensilien oder Kosmetikartikeln auf Arbeitsflächen und Tischen.",
       price:       "ab 44,99 €",
-      image:       "images/products/küche/gewuerzStaender.jpg",
+      image:       "images/products/kueche/gewuerzStaender.jpg",
       linkKey:     "AFFILIATE_KUECHE.GEWUERTZSTAENDER",
     },
  
@@ -419,7 +419,7 @@ const PRODUCTS = {
       title:       "2-in-1 Ölsprüher",
       description: "Praktische Glasflasche mit Sprüh- und Ausgießfunktion zur präzisen Dosierung von Öl beim Kochen, Grillen, Backen und in der Heißluftfritteuse.",
       price:       "ab 10,99 €",
-      image:       "images/products/küche/glasOelflaschen.jpg",
+      image:       "images/products/kueche/glasOelflaschen.jpg",
       linkKey:     "AFFILIATE_KUECHE.GLASOELFLASCHE",
     },
 
@@ -427,7 +427,7 @@ const PRODUCTS = {
       title:       "2er-Set Glasbecher (600 ml)",
       description: "Robuste, gerippte Trinkgläser mit Deckel und Strohhalm für Smoothies, Kaffee und kalte Getränke, mit auslaufsicherem Design für den Alltag.",
       price:       "ab 19,99 €",
-      image:       "images/products/küche/glasTrinkBecher.jpg",
+      image:       "images/products/kueche/glasTrinkBecher.jpg",
       linkKey:     "AFFILIATE_KUECHE.GLASTRINKBECHER",
     },
  
@@ -435,7 +435,7 @@ const PRODUCTS = {
       title:       "Küchenutensilienhalter",
       description: "Stilvoller Organizer zur praktischen Aufbewahrung von Kochlöffeln, Pfannenwendern und anderen Küchenhelfern, passend für moderne Küchen.",
       price:       "ab 17,99 €",
-      image:       "images/products/küche/kuechenutensilienhalter.jpg",
+      image:       "images/products/kueche/kuechenutensilienhalter.jpg",
       linkKey:     "AFFILIATE_KUECHE.KUECHENUTENSILIENHALTER",
     },
  
@@ -443,7 +443,7 @@ const PRODUCTS = {
       title:       "4-in-1 Milchaufschäumer",
       description: "Elektrischer Milchaufschäumer mit Heiz- und Kaltfunktion für cremigen Milchschaum, heiße Milch oder Kakao, ideal für Cappuccino und Latte.",
       price:       "ab 39,99 €",
-      image:       "images/products/küche/milchAufschaeumer.jpg",
+      image:       "images/products/kueche/milchAufschaeumer.jpg",
       linkKey:     "AFFILIATE_KUECHE.MILCHAUFSCHAUMER",
     },
  
@@ -451,7 +451,7 @@ const PRODUCTS = {
       title:       "2-stöckige Etagere aus Metall",
       description: "Stilvoller Servierständer für Kuchen, Cupcakes und Snacks, ideal als dekorative Tischpräsentation für besondere Anlässe und den Alltag.",
       price:       "ab 37,89 €",
-      image:       "images/products/küche/servierPlatte.jpg",
+      image:       "images/products/kueche/servierPlatte.jpg",
       linkKey:     "AFFILIATE_KUECHE.SERVICEPLATTE",
     },
  
@@ -459,7 +459,7 @@ const PRODUCTS = {
       title:       "3er-Set Silikon-Backmatten",
       description: "Wiederverwendbare, antihaftbeschichtete Backmatten für einfaches und gleichmäßiges Backen ohne zusätzliches Backpapier.",
       price:       "ab 16,61 €",
-      image:       "images/products/küche/silikonBackmatte.jpg",
+      image:       "images/products/kueche/silikonBackmatte.jpg",
       linkKey:     "AFFILIATE_KUECHE.SILIKONBACKMATTE",
     },
  
@@ -467,7 +467,7 @@ const PRODUCTS = {
       title:       "Elektrischer Stab-Milchaufschäumer",
       description: "Handlicher Getränkemixer zum schnellen Aufschäumen von Milch und Zubereiten von Latte, Cappuccino, Matcha und weiteren Heiß- oder Kaltgetränken.",
       price:       "ab 9,99 €",
-      image:       "images/products/küche/stabMilchaufschaeumer.jpg",
+      image:       "images/products/kueche/stabMilchaufschaeumer.jpg",
       linkKey:     "AFFILIATE_KUECHE.STABMILCHAUFSCHAUMER",
     },
  
