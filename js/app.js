@@ -411,7 +411,7 @@ const PRODUCTS = {
       title:       "Gewürzregal",
       description: "Drehbarer 3-stufiger Organizer zur platzsparenden Aufbewahrung von Gewürzen, Küchenutensilien oder Kosmetikartikeln auf Arbeitsflächen und Tischen.",
       price:       "ab 44,99 €",
-      image:       "images/products/küche/gewürzStänder.jpg",
+      image:       "images/products/küche/gewuerzStaender.jpg",
       linkKey:     "AFFILIATE_KUECHE.GEWUERTZSTAENDER",
     },
  
@@ -435,7 +435,7 @@ const PRODUCTS = {
       title:       "Küchenutensilienhalter",
       description: "Stilvoller Organizer zur praktischen Aufbewahrung von Kochlöffeln, Pfannenwendern und anderen Küchenhelfern, passend für moderne Küchen.",
       price:       "ab 17,99 €",
-      image:       "images/products/küche/küchenutensilienhalter.jpg",
+      image:       "images/products/küche/kuechenutensilienhalter.jpg",
       linkKey:     "AFFILIATE_KUECHE.KUECHENUTENSILIENHALTER",
     },
  
@@ -443,7 +443,7 @@ const PRODUCTS = {
       title:       "4-in-1 Milchaufschäumer",
       description: "Elektrischer Milchaufschäumer mit Heiz- und Kaltfunktion für cremigen Milchschaum, heiße Milch oder Kakao, ideal für Cappuccino und Latte.",
       price:       "ab 39,99 €",
-      image:       "images/products/küche/milchAufschäumer.jpg",
+      image:       "images/products/küche/milchAufschaeumer.jpg",
       linkKey:     "AFFILIATE_KUECHE.MILCHAUFSCHAUMER",
     },
  
@@ -467,7 +467,7 @@ const PRODUCTS = {
       title:       "Elektrischer Stab-Milchaufschäumer",
       description: "Handlicher Getränkemixer zum schnellen Aufschäumen von Milch und Zubereiten von Latte, Cappuccino, Matcha und weiteren Heiß- oder Kaltgetränken.",
       price:       "ab 9,99 €",
-      image:       "images/products/küche/stabMilchaufschäumer.jpg",
+      image:       "images/products/küche/stabMilchaufschaeumer.jpg",
       linkKey:     "AFFILIATE_KUECHE.STABMILCHAUFSCHAUMER",
     },
  
@@ -649,7 +649,7 @@ const PRODUCTS = {
       title:       "3er-Set Deko-Bücher",
       description: "Stilvolle, dekorative Attrappen im Buchdesign für eine moderne und ästhetische Wohnraum- oder Couchtisch-Dekoration.",
       price:       "ab 23,99 €",
-      image:       "images/products/wohnzimmer/dekoBücher.jpg",
+      image:       "images/products/wohnzimmer/dekoBuecher.jpg",
       linkKey:     "AFFILIATE_WOHNZIMMER.DEKOBUECHER",
     },
 
@@ -657,7 +657,7 @@ const PRODUCTS = {
       title:       "20 cm Keramikvase im modernen Design",
       description: "Matte, weiße Blumenvase im Boho- und Nordic-Stil, ideal für Pampasgras und stilvolle Wohnraumdekoration.",
       price:       "ab 11,99 €",
-      image:       "images/products/wohnzimmer/dekorativeÄsthetischeVase.jpg",
+      image:       "images/products/wohnzimmer/dekorativeAesthetischeVase.jpg",
       linkKey:     "AFFILIATE_WOHNZIMMER.DEKORATIVEAESTETISCHEVASE",
     },
  
@@ -665,7 +665,7 @@ const PRODUCTS = {
       title:       "Kerzenwärmer Lampe",
       description: "Elektrische Duftlampe im Vintage-Stil mit Timer- und Dimmfunktion zum sicheren Schmelzen von Duftkerzen und für eine stimmungsvolle Raumdekoration.",
       price:       "ab 32,99 €",
-      image:       "images/products/wohnzimmer/kerzenWärmeLampe.jpg",
+      image:       "images/products/wohnzimmer/kerzenWaermeLampe.jpg",
       linkKey:     "AFFILIATE_WOHNZIMMER.KERZENWAERMELAMPE",
     },
  
